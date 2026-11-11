@@ -31,3 +31,5 @@ def first_missing(required: list[str], present: list[str]) -> str | None:
 def load_events(path) -> list[dict]:
     """Read a JSON file encoded in UTF-8 and return its content (a list of events)."""
     raise NotImplementedError
+
+
